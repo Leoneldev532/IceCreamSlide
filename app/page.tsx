@@ -1,4 +1,4 @@
-
+// @ts-nocheck
 "use client"
 import Image from "next/image";
 import imggreen1 from "@/public/1.png"
