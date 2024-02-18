@@ -58,7 +58,6 @@ export default function Home() {
   const el2 = useRef(null)
   const el3 = useRef(null)
 
-  const table = gsap.utils.toArray(".ibeer2")
 
   const Next = ()=>{
 
