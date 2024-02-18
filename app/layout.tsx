@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Lobster } from "next/font/google";
 import "./globals.css";
+import Header from "./components/header";
 
 const inter = Inter({ subsets: ["latin"] });
+const police = Lobster({ 
+  subsets: ["latin"],
+  variable:"--font-lobster",
+weight:"400" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${police.className}`} >
+      
+      <body className={inter.className}>
+      <Header/>
+        {children}
+        </body>
     </html>
   );
 }
