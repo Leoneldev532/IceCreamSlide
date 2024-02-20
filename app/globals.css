@@ -53,6 +53,9 @@ body {
 .ff{
   font-family: var(--font-lobster) ;
 }
+.f2{
+  font-family: var(--font-Montserrat) ;
+}
 .bgop{
   background:radial-gradient(circle at center,rgba(168, 31, 31, 0.2) 2% ,#FF3D6C)
 }
