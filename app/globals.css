@@ -32,7 +32,7 @@ body {
   }
 }
 
-.maskelem{
+.maskelem {
   /* background:red;
   mask-image: url("../public/bb.svg");
   -webkit-mask-image:url("../public/bb.svg"); */
@@ -46,16 +46,16 @@ body {
 
 /* Beer can */
 
-.beercan{
+.beercan {
   transform-origin: center center 0;
 }
 
-.ff{
-  font-family: var(--font-lobster) ;
+.ff {
+  font-family: var(--font-lobster);
 }
-.f2{
-  font-family: var(--font-Montserrat) ;
+.f2 {
+  font-family: var(--font-Montserrat);
 }
-.bgop{
-  background:linear-gradient(to right,#BE1241 ,#EB3D6C 50%)
+.bgop {
+  background: linear-gradient(to right, #be1241, #eb3d6c 50%);
 }
