@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="  py-16 fixed flex justify-between items-center w-full max-h-16  px-16 min-[1450px]:px-36  top-0 left-0">
+    <div className="  py-16 fixed flex justify-between items-center w-full max-h-16  px-8 min-[1450px]:px-36  top-0 left-0">
       <h2 className="text-3xl font-semibold ff"> IceSeller </h2>
 
       <ul className=" flex gap-x-8 w-1/2 justify-center items-center">
