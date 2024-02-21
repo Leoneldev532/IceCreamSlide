@@ -30,9 +30,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${police.variable} ${police1.variable}`} >
       
-      <body className={inter.className}>
+      <body className={inter.className} >
+        <div className="flex justify-center items-center w-full">
+        <div className="flex flex-col max-w-[1550px] ">
       <Header/>
         {children}
+        </div>
+        </div>
         </body>
     </html>
   );

@@ -57,5 +57,5 @@ body {
   font-family: var(--font-Montserrat) ;
 }
 .bgop{
-  background:radial-gradient(circle at center,rgba(168, 31, 31, 0.2) 2% ,#FF3D6C)
+  background:linear-gradient(to right,#BE1241 ,#EB3D6C 50%)
 }
