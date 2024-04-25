@@ -230,7 +230,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="parent flex gap-x-4  bgop  min-h-screen overflow-hidden  py-36 px-8 min-[1450px]:px-36 ">
+    <div className="parent flex gap-x-4  bgop  flex-col min-h-screen overflow-hidden  py-36 px-8 min-[1450px]:px-36 ">
            <Header />
       <div className="w-1/2 flex  flex-col gap-y-4 ">
         <h1 className="xl:text-[10rem] text-[6rem] md:h-36 xl:h-48 p-0 m-0 ff ">
