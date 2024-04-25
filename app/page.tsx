@@ -9,6 +9,7 @@ import im6 from "@/public/6.png";
 import im7 from "@/public/7.png";
 import im8 from "@/public/9.png";
 import gsap from "gsap";
+import Header from "./components/header"
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 // import im9 from "@/public/9.png"
@@ -230,6 +231,7 @@ const Page = () => {
 
   return (
     <div className="parent flex gap-x-4  bgop  min-h-screen overflow-hidden  py-36 px-8 min-[1450px]:px-36 ">
+           <Header />
       <div className="w-1/2 flex  flex-col gap-y-4 ">
         <h1 className="xl:text-[10rem] text-[6rem] md:h-36 xl:h-48 p-0 m-0 ff ">
           ice cream
