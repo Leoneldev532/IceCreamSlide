@@ -33,7 +33,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex justify-center items-center w-full">
           <div className="flex flex-col max-w-[1450px] w-full">
-          <Header />
+     
           {children}
         </div>
         </div>
