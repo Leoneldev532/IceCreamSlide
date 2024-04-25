@@ -32,11 +32,11 @@ export default function RootLayout({
     <html lang="en" className={`${police.variable} ${police1.variable}`}>
       <body className={inter.className}>
         <div className="flex justify-center items-center w-full">
-          {/* <div className="flex flex-col max-w-[1550px] "> */}
+          <div className="flex flex-col max-w-[1450px] ">
           <Header />
           {children}
         </div>
-        {/* </div> */}
+        </div>
       </body>
     </html>
   );
